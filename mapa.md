@@ -1,3 +1,5 @@
+```mermaid
+   
 graph TD
     A[Ecosistema Web] --> B[Usuarios]
     A --> C[Tecnologías Frontend]
@@ -24,3 +26,5 @@ graph TD
     F --> F1[HTTPS/SSL]
     F --> F2[Autenticación]
     F --> F3[OWASP<br/>Buenas prácticas]
+    
+```
