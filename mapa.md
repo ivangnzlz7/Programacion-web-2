@@ -25,6 +25,6 @@ graph TD
 
     F --> F1[HTTPS/SSL]
     F --> F2[Autenticación]
-    F --> F3[OWASP<br/>Buenas prácticas]
+    F --> F3[OWASP]
     
 ```
