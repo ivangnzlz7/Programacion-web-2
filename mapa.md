@@ -2,26 +2,25 @@
    
 graph TD
     A[Ecosistema Web] --> B[Usuarios]
-    A --> C[Tecnologías Frontend]
-    A --> D[Tecnologías Backend]
+    A --> C[Frontend]
+    A --> D[Backend]
     A --> E[Infraestructura]
     A --> F[Seguridad]
 
-    B --> B1[Navegadores]
-    B --> B2[Dispositivos]
-    B --> B3[Interacción]
+    B --Navegador--> B1[chrome, Brave, Firefox]
+    B --Dispositivos--> B2[Tablet, Celular, Computadora]
+    B2 --> B1
 
     C --> C1[HTML/CSS/JS]
-    C --> C2[Frameworks<br/>React, Vue, Angular]
-    C --> C3[PWA<br/>Progressive Web Apps]
+    C --Frameworks--> C2[React, Vue, Angular]
 
-    D --> D1[Lenguajes<br/>Python, Java, PHP, Node.js]
-    D --> D2[Bases de Datos<br/>SQL, NoSQL]
-    D --> D3[APIs<br/>REST, GraphQL]
+    D --Lenguajes--> D1[Python, Java, PHP, Node.js]
+    D --Base de datos--> D2[SQL, NoSQL]
+    D --APIs--> D3[REST, GraphQL]
+    D --Frameworks--> D4[express, flask, django, laravel, spring boot]
 
     E --> E1[Servidores]
-    E --> E2[Nube<br/>AWS, Azure, GCP]
-    E --> E3[CDN<br/>Cloudflare, Akamai]
+    E --Nube--> E2[AWS, Azure, GCP]
 
     F --> F1[HTTPS/SSL]
     F --> F2[Autenticación]
